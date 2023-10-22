@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- OGPの設定 -->
+    <!-- 共通設定　OGPメタデータ -->
+    <meta property="og:title" content="ページのタイトル">
+    <meta property="og:description" content="ページの説明">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/page-url">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="サイト名">
+    <!-- Facebook等の設定が必要ならば適宜する -->
+
+    <meta name="description" content="起業用HPのコーディング練習です。">
+    <title>START</title>
+    
+    <!-- JavaScriptファイルのリンク -->
+    <script src="./js/toggle-menu.js"></script>
+
+    <!-- リセットCSS　ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- CSSファイルのリンク -->
+    <link href="./css/index.css" rel="stylesheet">
+
+    <!-- ファビコンの指定 -->
+    <link rel="icon" type="image/png" href="./icon-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" href="./apple-touch-icon-180x180.png">
+    <link rel="icon" href="./favicon.ico">
+
+    <!-- Googleフォントの適用 -->
+    <!-- Noto Sans　bold medium blackの適用 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap" rel="stylesheet">
+    <!-- Robotoの適用 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <!-- ヘッドここまで。これをテンプレート化してNotionに移す -->
+
+
+  <body>
+    <!-- ヘッダーここから -->
+    <header class="header">
+      <div class="header__inner">
+        <a class="header__logo" href="./index.html">
+          <img src="./img/logo.svg" alt="START">
+        </a>
+        <div class="header__nav">
+          <nav class="gnav">
+            <ul class="gnav__list">
+              <li class="gnav__item"><a class="gnav__link gnav__link--activ" href=".">ホーム</a></li>
+              <!-- href="."の意味→どこにも遷移しない様にする為、何にも使われていない記号を入れる、だから . でも良い -->
+              <li class="gnav__item"><a class="gnav__link" href="message.html">メッセージ</a></li>
+              <li class="gnav__item"><a class="gnav__link" href="company.html">会社概要</a></li>
+            </ul>
+            <button class="toggle-menu-button" type="button"></button>
+            <!-- ハンバーガーメニューは↑を入力しておく -->
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- ヘッダーここまで -->
+
+    <!-- メインここから -->
+    <main class="main">
+      <!-- メインビジュアルここから -->
+
+      <!-- メインビジュアルここまで -->
+
+      <!-- ニュースここから -->
+      <!-- ニュースここまで -->
+
+      <!-- サービスここから -->
+      <!-- サービスここまで -->
+    </main>
+    <!-- メインここまで -->
+
+  </body>
+
+  <!-- フッターここから -->
+  <!-- フッターここまで -->
+
+
+</html>
